@@ -4,8 +4,8 @@
   "description": "",
   "main": "User.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
-    "test:report": "jest --verbose --coverage --outputFile=test-report.xml --reporters=default --reporters=jest-junit"
+    "test": "npx jest --verbose --coverage",
+    "test:report": "npx jest --verbose --coverage --outputFile=test-report.xml --reporters=default --reporters=jest-junit"
   },
   "jest": {
     "reporters": [

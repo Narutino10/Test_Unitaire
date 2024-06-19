@@ -26,10 +26,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run tests
-        run: npm test
+        run: npx jest --verbose --coverage
 
       - name: Generate test report
         run: npm run test:report
