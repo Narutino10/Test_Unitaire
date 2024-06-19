@@ -31,9 +31,26 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Upload test report
+      - name: Generate test report
+        run: npm run test:report
+
+      - name: Upload HTML test report
         if: always()
         uses: actions/upload-artifact@v2
         with:
-          name: test-report
+          name: html-test-report
           path: tests_report.html
+
+      - name: Upload JUnit test report
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: junit-test-report
+          path: test-report.xml
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage-report
+          path: coverage/
