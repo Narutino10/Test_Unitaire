@@ -1,0 +1,7 @@
+Le projet ToDoList a été réalisé en JavaScript par moi-même, Ibrahim Ouahabi, 
+et en PHP par Hicham Sagouti.
+
+Pour lancer le test en JavaScript :
+Ouvrez le terminal.
+Exécutez la commande npm test.
+Vous verrez alors tous les différents tests validés. J'ai utilisé le framework de test "JEST". Il génère un fichier HTML qui affiche tous les tests passés.

@@ -1,0 +1,17 @@
+{
+  "name": "projet-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "User.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
+    "jest-sonar-reporter": "^2.0.0"
+  }
+}

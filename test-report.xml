@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\Ibrah\OneDrive\Bureau\Cours\4IW\Semestre 2\Test Unitaire\Projet ToDoList JS\Item.test.js">
+    <testCase name="Classe Item Item valide" duration="9"/>
+    <testCase name="Classe Item Nom d&apos;item vide" duration="0"/>
+    <testCase name="Classe Item Contenu d&apos;item trop long" duration="0"/>
+  </file>
+  <file path="C:\Users\Ibrah\OneDrive\Bureau\Cours\4IW\Semestre 2\Test Unitaire\Projet ToDoList JS\User.test.js">
+    <testCase name="Classe User Utilisateur valide" duration="6"/>
+    <testCase name="Classe User Email invalide" duration="0"/>
+    <testCase name="Classe User Mot de passe invalide (moins de 8 caractères)" duration="0"/>
+    <testCase name="Classe User Mot de passe invalide (pas de chiffre)" duration="0"/>
+    <testCase name="Classe User Mot de passe invalide (pas de majuscule)" duration="0"/>
+    <testCase name="Classe User Mot de passe invalide (pas de minuscule)" duration="0"/>
+    <testCase name="Classe User Âge invalide (moins de 13 ans)" duration="0"/>
+    <testCase name="Classe User Prénom manquant" duration="0"/>
+    <testCase name="Classe User Nom manquant" duration="0"/>
+    <testCase name="Classe User Date de naissance invalide" duration="0"/>
+  </file>
+  <file path="C:\Users\Ibrah\OneDrive\Bureau\Cours\4IW\Semestre 2\Test Unitaire\Projet ToDoList JS\ToDoList.test.js">
+    <testCase name="Classe ToDoList L&apos;utilisateur doit être valide pour créer une ToDoList" duration="14"/>
+    <testCase name="Classe ToDoList Peut ajouter un item valide" duration="2"/>
+    <testCase name="Classe ToDoList Ne peut pas ajouter un item invalide" duration="1"/>
+    <testCase name="Classe ToDoList Ne peut pas ajouter plus de 10 items" duration="1"/>
+    <testCase name="Classe ToDoList Doit attendre 30 minutes entre l&apos;ajout des items" duration="1"/>
+    <testCase name="Classe ToDoList Envoyer un email à l&apos;ajout du 8ème item" duration="2"/>
+    <testCase name="Classe ToDoList La méthode de sauvegarde doit lever une erreur" duration="0"/>
+  </file>
+</testExecutions>
